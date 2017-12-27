@@ -1,6 +1,6 @@
 iMPACT Version: Oct 13 2013 08:43:40
 
-iMPACT log file Started on Thu Dec 21 16:56:22 2017
+iMPACT log file Started on Wed Dec 27 17:20:58 2017
 
 Preference Table
 Name                 Setting             
@@ -47,9 +47,9 @@ INFO:iMPACT:501 - '1': Added Device xc7k325t successfully.
 Maximum TCK operating frequency for this device chain: 0.
 Validating chain...
 Boundary-scan chain validated successfully.
-1: Device Temperature: Current Reading:   58.74 C, Min. Reading:   45.45 C, Max.Reading:   60.22 C
-1: VCCINT Supply: Current Reading:   0.993 V, Min. Reading:   0.990 V, Max.Reading:   1.005 V
-1: VCCAUX Supply: Current Reading:   1.816 V, Min. Reading:   1.811 V, Max.Reading:   1.819 V
+1: Device Temperature: Current Reading:   52.84 C, Min. Reading:   43.48 C, Max.Reading:   53.82 C
+1: VCCINT Supply: Current Reading:   0.996 V, Min. Reading:   0.996 V, Max.Reading:   1.005 V
+1: VCCAUX Supply: Current Reading:   1.813 V, Min. Reading:   1.813 V, Max.Reading:   1.819 V
 INFO:iMPACT - Creating XC7K325T device.
 '1': Programming device...
  Match_cycle = NoWait.
@@ -67,4 +67,4 @@ Match cycle: NoWait
 LCK cycle: NoWait
 INFO:iMPACT - '1': Checking done pin....done.
 '1': Programmed successfully.
-Elapsed time =     61 sec.
+Elapsed time =     62 sec.

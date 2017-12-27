@@ -43,7 +43,7 @@
 
 SYSTEM = system
 HW = hw
-PROJECT_NAME = openflow_switch_1g_cml
+PROJECT_NAME = reference_nic_nf1_cml
 
 all:
 	$(MAKE) -C $(HW)

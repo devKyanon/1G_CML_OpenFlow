@@ -11,58 +11,52 @@ Parse
 ...
 
 Read MPD definitions ...
-WARNING:EDK:4088 - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core
-   for architecture 'kintex7' -
+WARNING:EDK - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core for
+   architecture 'kintex7' -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
    hs line 136 
-WARNING:EDK:4088 - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core
-   for architecture 'kintex7' -
+WARNING:EDK - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core for
+   architecture 'kintex7' -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
    hs line 136 
 
 Overriding IP level properties ...
-INFO:EDK:4130 - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
+INFO:EDK - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
    PARAMETER C_NUM_INTR_INPUTS value to 3 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 85 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_ENDIANNESS value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 198 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_ICACHE_USE_FSL value to 0 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 339 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_DCACHE_USE_FSL value to 0 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 369 
-INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_0 - tcl is
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_0 - tcl is
    overriding PARAMETER C_BASEFAMILY value to kintex7 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
    1_06_a/data/axi_interconnect_v2_1_0.mpd line 81 
 orig_family is kintex7
-INFO:EDK:4130 - IPNAME: axi_hwicap, INSTANCE:axi_hwicap_0 - tcl is overriding
+INFO:EDK - IPNAME: axi_hwicap, INSTANCE:axi_hwicap_0 - tcl is overriding
    PARAMETER C_FAMILY value to kintex7 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_hwicap_v2_03_a
    /data/axi_hwicap_v2_1_0.mpd line 94 
 
 Computing clock values...
-INFO:EDK:740 - Cannot determine the input clock associated with port :
+INFO:EDK - Cannot determine the input clock associated with port :
    microblaze_0_i_bram_ctrl:BRAM_Clk_A. Clock DRCs will not be performed on this
    core and cores connected to it. 
-INFO:EDK:740 - Cannot determine the input clock associated with port :
+INFO:EDK - Cannot determine the input clock associated with port :
    microblaze_0_d_bram_ctrl:BRAM_Clk_A. Clock DRCs will not be performed on this
    core and cores connected to it. 
-INFO:EDK:3716 - IPNAME: nf10_bram_output_queues, INSTANCE:
-   nf10_bram_output_queues_0 - Tools are updating the value of the parameter
-   C_INTERCONNECT_S_AXI_IS_ACLK_ASYNC to '1'. 
-INFO:EDK:3716 - IPNAME: nf10_input_arbiter, INSTANCE: nf10_input_arbiter_0 -
-   Tools are updating the value of the parameter
-   C_INTERCONNECT_S_AXI_IS_ACLK_ASYNC to '1'. 
-INFO:EDK:3715 - IPNAME: openflow_datapath, INSTANCE: openflow_datapath_0 - Tools
-   are unable to determine the clock frequency of the bus interface S_AXI by
-   tracing the clock ports. Tools are updating the value of the parameter
+INFO:EDK - IPNAME: openflow_datapath, INSTANCE: openflow_datapath_0 - Tools are
+   unable to determine the clock frequency of the bus interface S_AXI by tracing
+   the clock ports. Tools are updating the value of the parameter
    C_INTERCONNECT_S_AXI_IS_ACLK_ASYNC to '1'. 
 
 Performing IP level DRCs on properties...
@@ -90,23 +84,47 @@ Address Map for Processor microblaze_0
   (0x41400000-0x4140ffff) debug_module	axi_interconnect_0
   (0x41a00000-0x41a0ffff) axi_timebase_wdt_0	axi_interconnect_0
   (0x6a000000-0x6a00ffff) nf10_identifier_0	axi_interconnect_0
-  (0x76600000-0x7660ffff) nf10_bram_output_queues_0	axi_interconnect_0
-  (0x77a00000-0x77a0ffff) nf10_input_arbiter_0	axi_interconnect_0
-  (0x78200000-0x7820ffff) nf1_cml_interface_0	axi_interconnect_0
-  (0x78220000-0x7822ffff) nf1_cml_interface_1	axi_interconnect_0
-  (0x78240000-0x7824ffff) nf1_cml_interface_2	axi_interconnect_0
-  (0x78260000-0x7826ffff) nf1_cml_interface_3	axi_interconnect_0
   (0x7a040000-0x7a04ffff) mdio_0	axi_interconnect_0
   (0x7a800000-0x7a80ffff) dma_0	axi_interconnect_0
-INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:microblaze_0_ilmb - tool is overriding
+
+
+WARNING:EDK - Peripheral nf1_cml_interface_0 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+
+
+WARNING:EDK - Peripheral nf1_cml_interface_1 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+
+
+WARNING:EDK - Peripheral nf1_cml_interface_2 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+
+
+WARNING:EDK - Peripheral nf1_cml_interface_3 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+
+
+WARNING:EDK - Peripheral nf10_bram_output_queues_0 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+
+
+WARNING:EDK - Peripheral nf10_input_arbiter_0 is not accessible from any
+   processor in the system. Check Bus Interface connections and address
+   parameters. 
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:microblaze_0_ilmb - tool is overriding
    PARAMETER C_LMB_NUM_SLAVES value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
    ta/lmb_v10_v2_1_0.mpd line 82 
-INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:microblaze_0_dlmb - tool is overriding
+INFO:EDK - IPNAME: lmb_v10, INSTANCE:microblaze_0_dlmb - tool is overriding
    PARAMETER C_LMB_NUM_SLAVES value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_v10_v2_00_b/da
    ta/lmb_v10_v2_1_0.mpd line 82 
-INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:microblaze_0_bram_block - tool is
+INFO:EDK - IPNAME: bram_block, INSTANCE:microblaze_0_bram_block - tool is
    overriding PARAMETER C_MEMSIZE value to 0x4000 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a
    /data/bram_block_v2_1_0.mpd line 78 
@@ -116,34 +134,58 @@ Checking platform address map ...
 Checking platform configuration ...
 IPNAME: lmb_v10, INSTANCE: microblaze_0_ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: microblaze_0_dlmb - 1 master(s) : 1 slave(s) 
-IPNAME: axi_interconnect, INSTANCE: axi_interconnect_0 - 2 master(s) : 16
+IPNAME: axi_interconnect, INSTANCE: axi_interconnect_0 - 2 master(s) : 10
 slave(s) 
 
 Checking port drivers...
-WARNING:EDK:4180 - PORT: Interrupt_address_in, CONNECTOR: Interrupt_address_in -
-   No driver found. Port will be driven to GND -
+WARNING:EDK - PORT: Interrupt_address_in, CONNECTOR: Interrupt_address_in - No
+   driver found. Port will be driven to GND -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 131 
-WARNING:EDK:4180 - PORT: M_AXI_ACLK, CONNECTOR: axi_interconnect_0_M_ACLK - No
-   driver found. Port will be driven to GND -
+WARNING:EDK - PORT: M_AXI_ACLK, CONNECTOR: axi_interconnect_0_M_ACLK - No driver
+   found. Port will be driven to GND -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
    1_06_a/data/axi_interconnect_v2_1_0.mpd line 210 
-WARNING:EDK:4180 - PORT: aclk, CONNECTOR: axi_interconnect_0_M_ACLK - No driver
+WARNING:EDK - PORT: aclk, CONNECTOR: axi_interconnect_0_M_ACLK - No driver
    found. Port will be driven to GND -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/pcores/o
    penflow_datapath_v1_00_a/data/openflow_datapath_v2_1_0.mpd line 80 
-WARNING:EDK:4181 - PORT: util_ds_buf_0_IBUF_DS_P_pin, CONNECTOR:
+WARNING:EDK - PORT: s_axi_aresetn, CONNECTOR:
+   nf10_axis_converter_5_M_AXIS_ARESETN - No driver found. Port will be driven
+   to GND -
+   /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/lib/hw/cont
+   rib/pcores/nf1_cml_interface_v1_00_a/data/nf1_cml_interface_v2_1_0.mpd line
+   139 
+WARNING:EDK - PORT: s_axi_aresetn, CONNECTOR:
+   nf10_axis_converter_6_M_AXIS_ARESETN - No driver found. Port will be driven
+   to GND -
+   /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/lib/hw/cont
+   rib/pcores/nf1_cml_interface_v1_00_a/data/nf1_cml_interface_v2_1_0.mpd line
+   139 
+WARNING:EDK - PORT: s_axi_aresetn, CONNECTOR:
+   nf10_axis_converter_7_M_AXIS_ARESETN - No driver found. Port will be driven
+   to GND -
+   /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/lib/hw/cont
+   rib/pcores/nf1_cml_interface_v1_00_a/data/nf1_cml_interface_v2_1_0.mpd line
+   139 
+WARNING:EDK - PORT: s_axi_aresetn, CONNECTOR:
+   nf10_axis_converter_8_M_AXIS_ARESETN - No driver found. Port will be driven
+   to GND -
+   /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/lib/hw/cont
+   rib/pcores/nf1_cml_interface_v1_00_a/data/nf1_cml_interface_v2_1_0.mpd line
+   139 
+WARNING:EDK - PORT: util_ds_buf_0_IBUF_DS_P_pin, CONNECTOR:
    net_util_ds_buf_0_IBUF_DS_P_pin - floating connection -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
    hs line 61 
-WARNING:EDK:4181 - PORT: Processor_ack_out, CONNECTOR: Processor_ack_out -
-   floating connection -
+WARNING:EDK - PORT: Processor_ack_out, CONNECTOR: Processor_ack_out - floating
+   connection -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 132 
-WARNING:EDK:4181 - PORT: CLKOUT3, CONNECTOR: clk_125_0000Mhz_90 - floating
-   connection -
+WARNING:EDK - PORT: CLKOUT3, CONNECTOR: clk_125_0000Mhz_90 - floating connection
+   -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
-   hs line 214 
+   hs line 218 
 
 Performing Clock DRCs...
 INFO:EDK - Design contains multiple instances of clock_generator IP, all clock
@@ -153,53 +195,53 @@ INFO:EDK - Design contains multiple instances of clock_generator IP, all clock
 Performing Reset DRCs...
 
 Overriding system level properties...
-INFO:EDK:4130 - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
+INFO:EDK - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
    PARAMETER C_KIND_OF_INTR value to 0b11111111111111111111111111111101 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 87 
-INFO:EDK:4130 - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
+INFO:EDK - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
    PARAMETER C_KIND_OF_EDGE value to 0b11111111111111111111111111111111 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 88 
-INFO:EDK:4130 - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
+INFO:EDK - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
    PARAMETER C_KIND_OF_LVL value to 0b11111111111111111111111111111111 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_intc_v1_04_a/d
    ata/axi_intc_v2_1_0.mpd line 89 
-INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_i_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
+INFO:EDK - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_i_bram_ctrl - tcl is
+   overriding PARAMETER C_MASK value to 0x40000000 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
    v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
-INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_d_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
+INFO:EDK - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_d_bram_ctrl - tcl is
+   overriding PARAMETER C_MASK value to 0x40000000 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_
    v3_10_c/data/lmb_bram_if_cntlr_v2_1_0.mpd line 92 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_D_AXI value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 232 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_ADDR_TAG_BITS value to 0 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 337 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_DCACHE_ADDR_TAG value to 0 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 367 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_USE_INTERRUPT value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 401 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_USE_EXT_BRK value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 402 
-INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+INFO:EDK - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
    PARAMETER C_USE_EXT_NM_BRK value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_50_b
    /data/microblaze_v2_1_0.mpd line 403 
 
 INFO: Setting C_RANGE_CHECK = ON for axi_interconnect axi_interconnect_0.
-INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_0 - tcl is
+INFO:EDK - IPNAME: axi_interconnect, INSTANCE:axi_interconnect_0 - tcl is
    overriding PARAMETER C_RANGE_CHECK value to 1 -
    /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v
    1_06_a/data/axi_interconnect_v2_1_0.mpd line 149 
@@ -247,22 +289,22 @@ Creating hardware output directories ...
 Managing hardware (BBD-specified) netlist files ...
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 258 - Copying (BBD-specified) netlist files.
+line 262 - Copying (BBD-specified) netlist files.
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_1 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 287 - Copying (BBD-specified) netlist files.
+line 288 - Copying (BBD-specified) netlist files.
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_2 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 315 - Copying (BBD-specified) netlist files.
+line 313 - Copying (BBD-specified) netlist files.
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_3 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 343 - Copying (BBD-specified) netlist files.
+line 338 - Copying (BBD-specified) netlist files.
 IPNAME:dma INSTANCE:dma_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 407 - Copying (BBD-specified) netlist files.
+line 397 - Copying (BBD-specified) netlist files.
 IPNAME:openflow_datapath INSTANCE:openflow_datapath_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 506 - Copying (BBD-specified) netlist files.
+line 496 - Copying (BBD-specified) netlist files.
 
 Managing cache ...
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
@@ -291,46 +333,82 @@ IPNAME:microblaze INSTANCE:microblaze_0 -
 line 136 - Copying cache implementation netlist
 IPNAME:mdm INSTANCE:debug_module -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 160 - Copying cache implementation netlist
+line 163 - Copying cache implementation netlist
 IPNAME:axi_timebase_wdt INSTANCE:axi_timebase_wdt_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 221 - Copying cache implementation netlist
+line 225 - Copying cache implementation netlist
+IPNAME:axi_interconnect INSTANCE:axi_interconnect_0 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 238 - Copying cache implementation netlist
 IPNAME:axi_uartlite INSTANCE:rs232 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 242 - Copying cache implementation netlist
+line 246 - Copying cache implementation netlist
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 258 - Copying cache implementation netlist
+line 262 - Copying cache implementation netlist
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_1 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 287 - Copying cache implementation netlist
+line 288 - Copying cache implementation netlist
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_2 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 315 - Copying cache implementation netlist
+line 313 - Copying cache implementation netlist
 IPNAME:nf1_cml_interface INSTANCE:nf1_cml_interface_3 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 343 - Copying cache implementation netlist
+line 338 - Copying cache implementation netlist
 IPNAME:nf10_bram_output_queues INSTANCE:nf10_bram_output_queues_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 371 - Copying cache implementation netlist
+line 363 - Copying cache implementation netlist
 IPNAME:nf10_input_arbiter INSTANCE:nf10_input_arbiter_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 389 - Copying cache implementation netlist
+line 380 - Copying cache implementation netlist
 IPNAME:dma INSTANCE:dma_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 407 - Copying cache implementation netlist
+line 397 - Copying cache implementation netlist
 IPNAME:mdio_ctrl INSTANCE:mdio_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 455 - Copying cache implementation netlist
+line 445 - Copying cache implementation netlist
 IPNAME:axi_gpio INSTANCE:axi_gpio_bpi_if -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 468 - Copying cache implementation netlist
+line 458 - Copying cache implementation netlist
 IPNAME:axi_hwicap INSTANCE:axi_hwicap_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 484 - Copying cache implementation netlist
+line 474 - Copying cache implementation netlist
 IPNAME:nf10_identifier INSTANCE:nf10_identifier_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 495 - Copying cache implementation netlist
+line 485 - Copying cache implementation netlist
+IPNAME:openflow_datapath INSTANCE:openflow_datapath_0 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 496 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_0 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 512 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_1 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 521 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_2 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 530 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_3 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 539 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_4 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 548 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_5 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 557 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_6 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 566 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_7 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 575 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_8 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 584 - Copying cache implementation netlist
+IPNAME:nf10_axis_converter INSTANCE:nf10_axis_converter_9 -
+/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
+line 593 - Copying cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:microblaze_0_bram_block -
@@ -338,13 +416,13 @@ IPNAME:bram_block INSTANCE:microblaze_0_bram_block -
 line 129 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 173 - elaborating IP
+line 177 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 ----------------------------------------
 IPNAME:clock_generator INSTANCE:clock_generator_1 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 443 - elaborating IP
+line 433 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 ----------------------------------------
@@ -352,7 +430,7 @@ ClkGen elaborate status: PASSED
 Writing HDL for elaborated instances ...
 
 Inserting wrapper level ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
 Completion time: 0.00 seconds
@@ -365,99 +443,34 @@ Generating synthesis project file ...
 
 Running XST synthesis ...
 
-INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+INFO:EDK - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
 INSTANCE:clock_generator_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 173 - Running XST synthesis
-INSTANCE:axi_interconnect_0 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 234 - Running XST synthesis
+line 177 - Running XST synthesis
 INSTANCE:clock_generator_1 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 443 - Running XST synthesis
-INSTANCE:openflow_datapath_0 -
+line 433 - Running XST synthesis
+INSTANCE:nf10_nic_output_port_lookup_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 506 - Running XST synthesis
-INSTANCE:nf10_axis_converter_0 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 522 - Running XST synthesis
-INSTANCE:nf10_axis_converter_1 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 531 - Running XST synthesis
-INSTANCE:nf10_axis_converter_2 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 540 - Running XST synthesis
-INSTANCE:nf10_axis_converter_3 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 549 - Running XST synthesis
-INSTANCE:nf10_axis_converter_4 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 558 - Running XST synthesis
-INSTANCE:nf10_axis_converter_5 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 567 - Running XST synthesis
-INSTANCE:nf10_axis_converter_6 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 577 - Running XST synthesis
-INSTANCE:nf10_axis_converter_7 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 586 - Running XST synthesis
-INSTANCE:nf10_axis_converter_8 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 595 - Running XST synthesis
-INSTANCE:nf10_axis_converter_9 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 604 - Running XST synthesis
+line 602 - Running XST synthesis
 
 Running NGCBUILD ...
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 173 - Running NGCBUILD
-IPNAME:system_axi_interconnect_0_wrapper INSTANCE:axi_interconnect_0 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 234 - Running NGCBUILD
+line 177 - Running NGCBUILD
 IPNAME:system_clock_generator_1_wrapper INSTANCE:clock_generator_1 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 443 - Running NGCBUILD
-IPNAME:system_openflow_datapath_0_wrapper INSTANCE:openflow_datapath_0 -
+line 433 - Running NGCBUILD
+IPNAME:system_nf10_nic_output_port_lookup_0_wrapper
+INSTANCE:nf10_nic_output_port_lookup_0 -
 /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 506 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_0_wrapper INSTANCE:nf10_axis_converter_0 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 522 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_1_wrapper INSTANCE:nf10_axis_converter_1 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 531 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_2_wrapper INSTANCE:nf10_axis_converter_2 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 540 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_3_wrapper INSTANCE:nf10_axis_converter_3 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 549 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_4_wrapper INSTANCE:nf10_axis_converter_4 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 558 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_5_wrapper INSTANCE:nf10_axis_converter_5 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 567 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_6_wrapper INSTANCE:nf10_axis_converter_6 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 577 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_7_wrapper INSTANCE:nf10_axis_converter_7 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 586 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_8_wrapper INSTANCE:nf10_axis_converter_8 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 595 - Running NGCBUILD
-IPNAME:system_nf10_axis_converter_9_wrapper INSTANCE:nf10_axis_converter_9 -
-/root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.mhs
-line 604 - Running NGCBUILD
-INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+line 602 - Running NGCBUILD
+INFO:EDK - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 597.00 seconds
+Total run time: 45.00 seconds
