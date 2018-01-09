@@ -157,10 +157,10 @@ simtxrx: checkpktlen axi_model
 
 simtxrxgui: checkpktlen axi_model
 	./../test/$(TESTNAME)/run.py --packet_length $(PKTLEN) --packet_no $(PKTNO)
-	@echo "" > nf10_10g_interface_0_stim.axi
-	@echo "" > nf10_10g_interface_1_stim.axi
-	@echo "" > nf10_10g_interface_2_stim.axi
-	@echo "" > nf10_10g_interface_3_stim.axi
+	@echo "" > nf1_cml_interface_0_stim.axi
+	@echo "" > nf1_cml_interface_1_stim.axi
+	@echo "" > nf1_cml_interface_2_stim.axi
+	@echo "" > nf1_cml_interface_3_stim.axi
 	cp nf1_cml/system_axisim_txrx_tb.v simulation/behavioral/system_axisim_tb.v
 	cp nf1_cml/system_axisim_fuse.sh simulation/behavioral
 	cd simulation/behavioral && $(AXISIM_FUSE)
@@ -272,3 +272,23 @@ progflash: smallbits.mcs
 $(MICROBLAZE_0_BOOTLOOP): $(MICROBLAZE_BOOTLOOP_LE)
 	mkdir -p $(BOOTLOOP_DIR)
 	cp -f $(MICROBLAZE_BOOTLOOP_LE) $(MICROBLAZE_0_BOOTLOOP)
+
+
+
+################## AXI SIMULATION ##################
+
+of_axi_model: axi_simulation/$(MHSFILE) __xps/simgen.opt \
+           $(BRAMINIT_ELF_SIM_FILES)
+	@echo "*********************************************"
+	@echo "Creating AXI simulation models..."
+	@echo "*********************************************"
+	simgen $(SIMGEN_OPTIONS) -m behavioral axi_simulation/$(MHSFILE) -od axi_simulation/ -lp ../
+
+of_axisim: of_axi_model
+	./axi_simulation/simulation/make_pkts.py ; \
+	cd axi_simulation/simulation/behavioral ; \
+	cp ../../system_tb.v .; \
+	sh system_fuse.sh;
+	cd axi_simulation/simulation/behavioral ; \
+	$(SIM_CMD) -gui -tclbatch system_setup.tcl &
+

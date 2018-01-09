@@ -86,13 +86,19 @@ END
 BEGIN openflow_datapath
  PARAMETER INSTANCE = openflow_datapath_0
  PARAMETER HW_VER = 1.00.a
- PARAMETER C_S_AXI_BASEADDR = 0x79000000
- PARAMETER C_S_AXI_HIGHADDR = 0x79000FFF
+ PARAMETER C_S_AXI_BASEADDR = 0x7A018000
+ PARAMETER C_S_AXI_HIGHADDR = 0x7A018FFF
  BUS_INTERFACE S_AXI = axi_interconnect_0
  BUS_INTERFACE S_AXIS_0 = nf1_cml_interface_0_M_AXIS
- BUS_INTERFACE S_AXIS_1 = nf10_axis_converter_1_M_AXIS
  BUS_INTERFACE M_AXIS_1 = openflow_datapath_0_M_AXIS_1
  BUS_INTERFACE M_AXIS_0 = openflow_datapath_0_M_AXIS_0
+ BUS_INTERFACE S_AXIS_4 = nf10_axis_converter_4_M_AXIS
+ BUS_INTERFACE M_AXIS_4 = openflow_datapath_0_M_AXIS_4
+ BUS_INTERFACE M_AXIS_2 = openflow_datapath_0_M_AXIS_2
+ BUS_INTERFACE M_AXIS_3 = openflow_datapath_0_M_AXIS_3
+ BUS_INTERFACE S_AXIS_1 = nf1_cml_interface_1_M_AXIS
+ BUS_INTERFACE S_AXIS_2 = nf1_cml_interface_2_M_AXIS
+ BUS_INTERFACE S_AXIS_3 = nf1_cml_interface_3_M_AXIS
  PORT aresetn = proc_sys_reset_0_Peripheral_aresetn
  PORT asclk = clk_125_0000MHz
  PORT aclk = clk_125_0000MHz
@@ -101,17 +107,15 @@ END
 BEGIN nf1_cml_interface
  PARAMETER INSTANCE = nf1_cml_interface_3
  PARAMETER HW_VER = 1.00.a
- PARAMETER C_TX_PAUSE_MAC_ADDR = 0
- PARAMETER C_RX_PAUSE_MAC_ADDR = 0
  PARAMETER C_BASEADDR = 0x78260000
  PARAMETER C_HIGHADDR = 0x7826ffff
- PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ PARAMETER C_M_AXIS_DATA_WIDTH = 64
  PARAMETER C_S_AXIS_DATA_WIDTH = 256
  PARAMETER C_DEFAULT_VALUE_ENABLE = 1
  PARAMETER C_DEFAULT_SRC_PORT = 0x40
  BUS_INTERFACE S_AXIS = nf10_bram_output_queues_0_M_AXIS_3
- BUS_INTERFACE M_AXIS = nf1_cml_interface_3_M_AXIS
  BUS_INTERFACE S_AXI = axi_interconnect_0
+ BUS_INTERFACE M_AXIS = nf1_cml_interface_3_M_AXIS
  PORT s_axi_aclk = clk_100_0000MHz
  PORT gtx_clk = gtx_clk_125_0000MHz
  PORT gtx_clk90 = gtx_clk_125_0000MHz_90
@@ -129,17 +133,15 @@ END
 BEGIN nf1_cml_interface
  PARAMETER INSTANCE = nf1_cml_interface_2
  PARAMETER HW_VER = 1.00.a
- PARAMETER C_TX_PAUSE_MAC_ADDR = 0
- PARAMETER C_RX_PAUSE_MAC_ADDR = 0
  PARAMETER C_BASEADDR = 0x78240000
  PARAMETER C_HIGHADDR = 0x7824ffff
- PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ PARAMETER C_M_AXIS_DATA_WIDTH = 64
  PARAMETER C_S_AXIS_DATA_WIDTH = 256
  PARAMETER C_DEFAULT_VALUE_ENABLE = 1
  PARAMETER C_DEFAULT_SRC_PORT = 0x10
- BUS_INTERFACE M_AXIS = nf1_cml_interface_2_M_AXIS
  BUS_INTERFACE S_AXIS = nf10_bram_output_queues_0_M_AXIS_2
  BUS_INTERFACE S_AXI = axi_interconnect_0
+ BUS_INTERFACE M_AXIS = nf1_cml_interface_2_M_AXIS
  PORT s_axi_aclk = clk_100_0000MHz
  PORT gtx_clk = gtx_clk_125_0000MHz
  PORT gtx_clk90 = gtx_clk_125_0000MHz_90
@@ -157,17 +159,15 @@ END
 BEGIN nf1_cml_interface
  PARAMETER INSTANCE = nf1_cml_interface_1
  PARAMETER HW_VER = 1.00.a
- PARAMETER C_TX_PAUSE_MAC_ADDR = 0
- PARAMETER C_RX_PAUSE_MAC_ADDR = 0
  PARAMETER C_BASEADDR = 0x78220000
  PARAMETER C_HIGHADDR = 0x7822ffff
- PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ PARAMETER C_M_AXIS_DATA_WIDTH = 64
  PARAMETER C_S_AXIS_DATA_WIDTH = 256
  PARAMETER C_DEFAULT_VALUE_ENABLE = 1
  PARAMETER C_DEFAULT_SRC_PORT = 0x04
- BUS_INTERFACE M_AXIS = nf1_cml_interface_1_M_AXIS
  BUS_INTERFACE S_AXIS = nf10_bram_output_queues_0_M_AXIS_1
  BUS_INTERFACE S_AXI = axi_interconnect_0
+ BUS_INTERFACE M_AXIS = nf1_cml_interface_1_M_AXIS
  PORT s_axi_aclk = clk_100_0000MHz
  PORT gtx_clk = gtx_clk_125_0000MHz
  PORT gtx_clk90 = gtx_clk_125_0000MHz_90
@@ -217,9 +217,6 @@ BEGIN nf10_nic_output_port_lookup
  PARAMETER C_M_AXIS_DATA_WIDTH = 256
  PARAMETER C_S_AXIS_DATA_WIDTH = 256
  PARAMETER C_INTERCONNECT_S_AXI_IS_ACLK_ASYNC = 1
- BUS_INTERFACE S_AXI = axi_interconnect_0
- BUS_INTERFACE S_AXIS = nf10_input_arbiter_0_M_AXIS
- BUS_INTERFACE M_AXIS = nf10_nic_output_port_lookup_0_M_AXIS
  PORT S_AXI_ACLK = clk_125_0000MHz
  PORT S_AXI_ARESETN = proc_sys_reset_0_Peripheral_aresetn
  PORT axi_aclk = clk_125_0000MHz
@@ -233,13 +230,13 @@ BEGIN nf10_input_arbiter
  PARAMETER C_S_AXIS_DATA_WIDTH = 256
  PARAMETER C_BASEADDR = 0x77a00000
  PARAMETER C_HIGHADDR = 0x77a0ffff
- BUS_INTERFACE S_AXIS_2 = nf1_cml_interface_2_M_AXIS
- BUS_INTERFACE S_AXIS_4 = dma_0_M_AXIS
  BUS_INTERFACE S_AXI = axi_interconnect_0
  BUS_INTERFACE S_AXIS_1 = nf10_axis_converter_11_M_AXIS
  BUS_INTERFACE S_AXIS_0 = nf10_axis_converter_00_M_AXIS
- BUS_INTERFACE S_AXIS_3 = nf1_cml_interface_3_M_AXIS
  BUS_INTERFACE M_AXIS = nf10_input_arbiter_0_M_AXIS
+ BUS_INTERFACE S_AXIS_4 = nf10_axis_converter_44_M_AXIS
+ BUS_INTERFACE S_AXIS_2 = nf10_axis_converter_22_M_AXIS
+ BUS_INTERFACE S_AXIS_3 = nf10_axis_converter_33_M_AXIS
  PORT axi_aclk = clk_125_0000MHz
  PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
 END
@@ -268,7 +265,7 @@ BEGIN nf10_bram_output_queues
  BUS_INTERFACE S_AXI = axi_interconnect_0
  BUS_INTERFACE M_AXIS_0 = nf10_bram_output_queues_0_M_AXIS_0
  BUS_INTERFACE M_AXIS_4 = nf10_bram_output_queues_0_M_AXIS_4
- BUS_INTERFACE S_AXIS = nf10_nic_output_port_lookup_0_M_AXIS
+ BUS_INTERFACE S_AXIS = nf10_input_arbiter_0_M_AXIS
  PORT axi_aclk = clk_125_0000MHz
  PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
 END
@@ -279,16 +276,6 @@ BEGIN nf10_axis_converter
  PARAMETER C_M_AXIS_DATA_WIDTH = 256
  BUS_INTERFACE S_AXIS = openflow_datapath_0_M_AXIS_1
  BUS_INTERFACE M_AXIS = nf10_axis_converter_11_M_AXIS
- PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
- PORT axi_aclk = clk_125_0000MHz
-END
-
-BEGIN nf10_axis_converter
- PARAMETER INSTANCE = nf10_axis_converter_1
- PARAMETER HW_VER = 1.00.a
- PARAMETER C_S_AXIS_DATA_WIDTH = 256
- BUS_INTERFACE S_AXIS = nf1_cml_interface_1_M_AXIS
- BUS_INTERFACE M_AXIS = nf10_axis_converter_1_M_AXIS
  PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
  PORT axi_aclk = clk_125_0000MHz
 END
@@ -430,7 +417,7 @@ BEGIN mdm
  PARAMETER INSTANCE = debug_module
  PARAMETER HW_VER = 2.10.a
  PARAMETER C_INTERCONNECT = 2
- PARAMETER C_USE_UART = 1
+ PARAMETER C_USE_UART = 0
  PARAMETER C_BASEADDR = 0x41400000
  PARAMETER C_HIGHADDR = 0x4140ffff
  BUS_INTERFACE MBDEBUG_0 = microblaze_0_debug
@@ -560,5 +547,41 @@ BEGIN axi_uartlite
  PORT TX = RS232_Uart_1_sout
  PORT RX = RS232_Uart_1_sin
  PORT Interrupt = RS232_Interrupt
+END
+
+BEGIN nf10_axis_converter
+ PARAMETER INSTANCE = nf10_axis_converter_4
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_S_AXIS_DATA_WIDTH = 256
+ BUS_INTERFACE S_AXIS = dma_0_M_AXIS
+ BUS_INTERFACE M_AXIS = nf10_axis_converter_4_M_AXIS
+ PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
+END
+
+BEGIN nf10_axis_converter
+ PARAMETER INSTANCE = nf10_axis_converter_44
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ BUS_INTERFACE S_AXIS = openflow_datapath_0_M_AXIS_4
+ BUS_INTERFACE M_AXIS = nf10_axis_converter_44_M_AXIS
+ PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
+END
+
+BEGIN nf10_axis_converter
+ PARAMETER INSTANCE = nf10_axis_converter_22
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ BUS_INTERFACE S_AXIS = openflow_datapath_0_M_AXIS_2
+ BUS_INTERFACE M_AXIS = nf10_axis_converter_22_M_AXIS
+ PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
+END
+
+BEGIN nf10_axis_converter
+ PARAMETER INSTANCE = nf10_axis_converter_33
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_M_AXIS_DATA_WIDTH = 256
+ BUS_INTERFACE S_AXIS = openflow_datapath_0_M_AXIS_3
+ BUS_INTERFACE M_AXIS = nf10_axis_converter_33_M_AXIS
+ PORT axi_resetn = proc_sys_reset_0_Peripheral_aresetn
 END
 
