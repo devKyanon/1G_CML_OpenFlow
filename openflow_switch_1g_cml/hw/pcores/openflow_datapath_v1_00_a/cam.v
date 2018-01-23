@@ -7,7 +7,7 @@
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
 //  /   /         Filename: cam.v
-// /___/   /\     Timestamp: Wed Dec 20 14:28:43 2017
+// /___/   /\     Timestamp: Mon Jan 22 16:00:53 2018
 // \   \  /  \ 
 //  \___\/\___\
 //             
@@ -1106,91 +1106,55 @@ module cam (
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/wes(2) ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/wes(1) ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/wes(0) ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[14] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ;
-  wire \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[0] ;
   wire \top_cam/rtl_cam/clog/Mcount_gwsig.gsrl.wr_count_integer_srl3 ;
   wire \top_cam/rtl_cam/clog/Mcount_gwsig.gsrl.wr_count_integer_srl2 ;
   wire \top_cam/rtl_cam/clog/Mcount_gwsig.gsrl.wr_count_integer_srl1 ;
   wire \top_cam/rtl_cam/clog/Mcount_gwsig.gsrl.wr_count_integer_srl ;
   wire \top_cam/rtl_cam/clog/_n0199 ;
   wire \top_cam/rtl_cam/clog/GND_51_o_gwsig.gsrl.wr_count_integer_srl[3]_equal_4_o ;
-  wire \top_cam/rtl_cam/clog/WE_busy_i_AND_189_o ;
-  wire \top_cam/rtl_cam/clog/gwsig.end_next_write_1527 ;
+  wire \top_cam/rtl_cam/clog/WE_busy_i_AND_109_o ;
+  wire \top_cam/rtl_cam/clog/gwsig.end_next_write_1490 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1529 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1492 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1531 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1494 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1533 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1496 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1535 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1498 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1537 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1500 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1539 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1502 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1541 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1504 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1543 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1506 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1545 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1508 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1547 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1510 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1549 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1512 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1551 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1514 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1553 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1516 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1555 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1518 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1557 ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1520 ;
   wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0) ;
-  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1559 ;
-  wire N2;
-  wire \top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1561 ;
-  wire N4;
-  wire N6;
-  wire N8;
-  wire N10;
-  wire N12;
-  wire N14;
-  wire N16;
-  wire N18;
-  wire N20;
-  wire N22;
-  wire N24;
-  wire N26;
-  wire N28;
-  wire N30;
-  wire N32;
-  wire N34;
-  wire N36;
-  wire N38;
-  wire N40;
-  wire N42;
-  wire N46;
-  wire N48;
-  wire \top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ;
-  wire \top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1588 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ;
-  wire \top_cam/rtl_cam/clog/WREN11_1593 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 ;
-  wire \top_cam/rtl_cam/clog/WREN111 ;
-  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ;
-  wire [31 : 0] \top_cam/rtl_cam/mlog/match_addr_1h_int ;
+  wire \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1522 ;
+  wire \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)1_1524 ;
+  wire \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)2_1525 ;
+  wire \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)3_1526 ;
+  wire \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)4_1527 ;
+  wire \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)5_1528 ;
+  wire \top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1529 ;
+  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 ;
+  wire \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ;
+  wire [31 : 0] \top_cam/rtl_cam/mlog/match_addr_mm_int ;
   wire [3 : 0] \top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl ;
   wire [31 : 0] \top_cam/rtl_cam/matches ;
   wire [31 : 0] \top_cam/rtl_cam/wr_din ;
@@ -1201,41 +1165,42 @@ module cam (
   wire [4 : 0] \top_cam/rtl_cam/ilog/gwl.wr_addr_q ;
   wire [31 : 0] \top_cam/rtl_cam/ilog/gwl.din_q ;
   wire [15 : 0] \top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits ;
-  wire [31 : 1] \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg ;
+  wire [0 : 0] \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red ;
+  wire [0 : 0] \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0) ;
   // synthesis translate_off
   assign
-    MATCH_ADDR[31] = \top_cam/rtl_cam/mlog/match_addr_1h_int [31],
-    MATCH_ADDR[30] = \top_cam/rtl_cam/mlog/match_addr_1h_int [30],
-    MATCH_ADDR[29] = \top_cam/rtl_cam/mlog/match_addr_1h_int [29],
-    MATCH_ADDR[28] = \top_cam/rtl_cam/mlog/match_addr_1h_int [28],
-    MATCH_ADDR[27] = \top_cam/rtl_cam/mlog/match_addr_1h_int [27],
-    MATCH_ADDR[26] = \top_cam/rtl_cam/mlog/match_addr_1h_int [26],
-    MATCH_ADDR[25] = \top_cam/rtl_cam/mlog/match_addr_1h_int [25],
-    MATCH_ADDR[24] = \top_cam/rtl_cam/mlog/match_addr_1h_int [24],
-    MATCH_ADDR[23] = \top_cam/rtl_cam/mlog/match_addr_1h_int [23],
-    MATCH_ADDR[22] = \top_cam/rtl_cam/mlog/match_addr_1h_int [22],
-    MATCH_ADDR[21] = \top_cam/rtl_cam/mlog/match_addr_1h_int [21],
-    MATCH_ADDR[20] = \top_cam/rtl_cam/mlog/match_addr_1h_int [20],
-    MATCH_ADDR[19] = \top_cam/rtl_cam/mlog/match_addr_1h_int [19],
-    MATCH_ADDR[18] = \top_cam/rtl_cam/mlog/match_addr_1h_int [18],
-    MATCH_ADDR[17] = \top_cam/rtl_cam/mlog/match_addr_1h_int [17],
-    MATCH_ADDR[16] = \top_cam/rtl_cam/mlog/match_addr_1h_int [16],
-    MATCH_ADDR[15] = \top_cam/rtl_cam/mlog/match_addr_1h_int [15],
-    MATCH_ADDR[14] = \top_cam/rtl_cam/mlog/match_addr_1h_int [14],
-    MATCH_ADDR[13] = \top_cam/rtl_cam/mlog/match_addr_1h_int [13],
-    MATCH_ADDR[12] = \top_cam/rtl_cam/mlog/match_addr_1h_int [12],
-    MATCH_ADDR[11] = \top_cam/rtl_cam/mlog/match_addr_1h_int [11],
-    MATCH_ADDR[10] = \top_cam/rtl_cam/mlog/match_addr_1h_int [10],
-    MATCH_ADDR[9] = \top_cam/rtl_cam/mlog/match_addr_1h_int [9],
-    MATCH_ADDR[8] = \top_cam/rtl_cam/mlog/match_addr_1h_int [8],
-    MATCH_ADDR[7] = \top_cam/rtl_cam/mlog/match_addr_1h_int [7],
-    MATCH_ADDR[6] = \top_cam/rtl_cam/mlog/match_addr_1h_int [6],
-    MATCH_ADDR[5] = \top_cam/rtl_cam/mlog/match_addr_1h_int [5],
-    MATCH_ADDR[4] = \top_cam/rtl_cam/mlog/match_addr_1h_int [4],
-    MATCH_ADDR[3] = \top_cam/rtl_cam/mlog/match_addr_1h_int [3],
-    MATCH_ADDR[2] = \top_cam/rtl_cam/mlog/match_addr_1h_int [2],
-    MATCH_ADDR[1] = \top_cam/rtl_cam/mlog/match_addr_1h_int [1],
-    MATCH_ADDR[0] = \top_cam/rtl_cam/mlog/match_addr_1h_int [0],
+    MATCH_ADDR[31] = \top_cam/rtl_cam/mlog/match_addr_mm_int [31],
+    MATCH_ADDR[30] = \top_cam/rtl_cam/mlog/match_addr_mm_int [30],
+    MATCH_ADDR[29] = \top_cam/rtl_cam/mlog/match_addr_mm_int [29],
+    MATCH_ADDR[28] = \top_cam/rtl_cam/mlog/match_addr_mm_int [28],
+    MATCH_ADDR[27] = \top_cam/rtl_cam/mlog/match_addr_mm_int [27],
+    MATCH_ADDR[26] = \top_cam/rtl_cam/mlog/match_addr_mm_int [26],
+    MATCH_ADDR[25] = \top_cam/rtl_cam/mlog/match_addr_mm_int [25],
+    MATCH_ADDR[24] = \top_cam/rtl_cam/mlog/match_addr_mm_int [24],
+    MATCH_ADDR[23] = \top_cam/rtl_cam/mlog/match_addr_mm_int [23],
+    MATCH_ADDR[22] = \top_cam/rtl_cam/mlog/match_addr_mm_int [22],
+    MATCH_ADDR[21] = \top_cam/rtl_cam/mlog/match_addr_mm_int [21],
+    MATCH_ADDR[20] = \top_cam/rtl_cam/mlog/match_addr_mm_int [20],
+    MATCH_ADDR[19] = \top_cam/rtl_cam/mlog/match_addr_mm_int [19],
+    MATCH_ADDR[18] = \top_cam/rtl_cam/mlog/match_addr_mm_int [18],
+    MATCH_ADDR[17] = \top_cam/rtl_cam/mlog/match_addr_mm_int [17],
+    MATCH_ADDR[16] = \top_cam/rtl_cam/mlog/match_addr_mm_int [16],
+    MATCH_ADDR[15] = \top_cam/rtl_cam/mlog/match_addr_mm_int [15],
+    MATCH_ADDR[14] = \top_cam/rtl_cam/mlog/match_addr_mm_int [14],
+    MATCH_ADDR[13] = \top_cam/rtl_cam/mlog/match_addr_mm_int [13],
+    MATCH_ADDR[12] = \top_cam/rtl_cam/mlog/match_addr_mm_int [12],
+    MATCH_ADDR[11] = \top_cam/rtl_cam/mlog/match_addr_mm_int [11],
+    MATCH_ADDR[10] = \top_cam/rtl_cam/mlog/match_addr_mm_int [10],
+    MATCH_ADDR[9] = \top_cam/rtl_cam/mlog/match_addr_mm_int [9],
+    MATCH_ADDR[8] = \top_cam/rtl_cam/mlog/match_addr_mm_int [8],
+    MATCH_ADDR[7] = \top_cam/rtl_cam/mlog/match_addr_mm_int [7],
+    MATCH_ADDR[6] = \top_cam/rtl_cam/mlog/match_addr_mm_int [6],
+    MATCH_ADDR[5] = \top_cam/rtl_cam/mlog/match_addr_mm_int [5],
+    MATCH_ADDR[4] = \top_cam/rtl_cam/mlog/match_addr_mm_int [4],
+    MATCH_ADDR[3] = \top_cam/rtl_cam/mlog/match_addr_mm_int [3],
+    MATCH_ADDR[2] = \top_cam/rtl_cam/mlog/match_addr_mm_int [2],
+    MATCH_ADDR[1] = \top_cam/rtl_cam/mlog/match_addr_mm_int [1],
+    MATCH_ADDR[0] = \top_cam/rtl_cam/mlog/match_addr_mm_int [0],
     MATCH = \top_cam/rtl_cam/mlog/match_int_168 ;
   GND   XST_GND (
     .G(N1)
@@ -10943,232 +10908,232 @@ module cam (
     .INIT ( 1'b0 ))
   \top_cam/rtl_cam/mlog/match_int  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[0] ),
+    .D(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red [0]),
     .Q(\top_cam/rtl_cam/mlog/match_int_168 )
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_31  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_31  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [31]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [31])
+    .D(\top_cam/rtl_cam/matches [31]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [31])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_30  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_30  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [30]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [30])
+    .D(\top_cam/rtl_cam/matches [30]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [30])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_29  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_29  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [29]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [29])
+    .D(\top_cam/rtl_cam/matches [29]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [29])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_28  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_28  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [28]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [28])
+    .D(\top_cam/rtl_cam/matches [28]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [28])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_27  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_27  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [27]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [27])
+    .D(\top_cam/rtl_cam/matches [27]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [27])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_26  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_26  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [26]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [26])
+    .D(\top_cam/rtl_cam/matches [26]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [26])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_25  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_25  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [25]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [25])
+    .D(\top_cam/rtl_cam/matches [25]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [25])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_24  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_24  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [24]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [24])
+    .D(\top_cam/rtl_cam/matches [24]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [24])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_23  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_23  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [23]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [23])
+    .D(\top_cam/rtl_cam/matches [23]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [23])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_22  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_22  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [22]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [22])
+    .D(\top_cam/rtl_cam/matches [22]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [22])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_21  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_21  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [21]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [21])
+    .D(\top_cam/rtl_cam/matches [21]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [21])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_20  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_20  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [20]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [20])
+    .D(\top_cam/rtl_cam/matches [20]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [20])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_19  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_19  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [19]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [19])
+    .D(\top_cam/rtl_cam/matches [19]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [19])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_18  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_18  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [18]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [18])
+    .D(\top_cam/rtl_cam/matches [18]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [18])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_17  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_17  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [17]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [17])
+    .D(\top_cam/rtl_cam/matches [17]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [17])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_16  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_16  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [16]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [16])
+    .D(\top_cam/rtl_cam/matches [16]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [16])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_15  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_15  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [15]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [15])
+    .D(\top_cam/rtl_cam/matches [15]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [15])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_14  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_14  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [14]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [14])
+    .D(\top_cam/rtl_cam/matches [14]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [14])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_13  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_13  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [13]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [13])
+    .D(\top_cam/rtl_cam/matches [13]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [13])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_12  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_12  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [12]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [12])
+    .D(\top_cam/rtl_cam/matches [12]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [12])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_11  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_11  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [11]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [11])
+    .D(\top_cam/rtl_cam/matches [11]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [11])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_10  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_10  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [10]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [10])
+    .D(\top_cam/rtl_cam/matches [10]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [10])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_9  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_9  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [9]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [9])
+    .D(\top_cam/rtl_cam/matches [9]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [9])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_8  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_8  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [8]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [8])
+    .D(\top_cam/rtl_cam/matches [8]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [8])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_7  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_7  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [7]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [7])
+    .D(\top_cam/rtl_cam/matches [7]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [7])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_6  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_6  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [6]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [6])
+    .D(\top_cam/rtl_cam/matches [6]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [6])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_5  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_5  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [5]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [5])
+    .D(\top_cam/rtl_cam/matches [5]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [5])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_4  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_4  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [4]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [4])
+    .D(\top_cam/rtl_cam/matches [4]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [4])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_3  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_3  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [3]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [3])
+    .D(\top_cam/rtl_cam/matches [3]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [3])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_2  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_2  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [2]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [2])
+    .D(\top_cam/rtl_cam/matches [2]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [2])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_1  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_1  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [1]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [1])
+    .D(\top_cam/rtl_cam/matches [1]),
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [1])
   );
   FD #(
     .INIT ( 1'b0 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_int_0  (
+  \top_cam/rtl_cam/mlog/match_addr_mm_int_0  (
     .C(CLK),
     .D(\top_cam/rtl_cam/matches [0]),
-    .Q(\top_cam/rtl_cam/mlog/match_addr_1h_int [0])
+    .Q(\top_cam/rtl_cam/mlog/match_addr_mm_int [0])
   );
   FDS #(
     .INIT ( 1'b1 ))
@@ -11208,7 +11173,7 @@ module cam (
     .C(CLK),
     .D(\top_cam/rtl_cam/clog/GND_51_o_gwsig.gsrl.wr_count_integer_srl[3]_equal_4_o ),
     .R(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
-    .Q(\top_cam/rtl_cam/clog/gwsig.end_next_write_1527 )
+    .Q(\top_cam/rtl_cam/clog/gwsig.end_next_write_1490 )
   );
   LUT4 #(
     .INIT ( 16'hB0BB ))
@@ -11791,7 +11756,7 @@ module cam (
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11  (
     .I0(WR_ADDR[0]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [0]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
     .O(\top_cam/rtl_cam/wr_addr_ilog [0])
   );
   LUT3 #(
@@ -11799,7 +11764,7 @@ module cam (
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21  (
     .I0(WR_ADDR[1]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [1]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
     .O(\top_cam/rtl_cam/wr_addr_ilog [1])
   );
   LUT3 #(
@@ -11807,7 +11772,7 @@ module cam (
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31  (
     .I0(WR_ADDR[2]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [2]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
     .O(\top_cam/rtl_cam/wr_addr_ilog [2])
   );
   LUT3 #(
@@ -11815,7 +11780,7 @@ module cam (
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41  (
     .I0(WR_ADDR[3]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [3]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
     .O(\top_cam/rtl_cam/wr_addr_ilog [3])
   );
   LUT3 #(
@@ -11823,7 +11788,7 @@ module cam (
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51  (
     .I0(WR_ADDR[4]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [4]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
     .O(\top_cam/rtl_cam/wr_addr_ilog [4])
   );
   LUT3 #(
@@ -12691,124 +12656,6 @@ module cam (
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/wes(29) )
   );
   LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(6)(12)1  (
-    .I0(\top_cam/rtl_cam/matches [19]),
-    .I1(\top_cam/rtl_cam/matches [17]),
-    .I2(\top_cam/rtl_cam/matches [16]),
-    .I3(\top_cam/rtl_cam/matches [18]),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] )
-  );
-  LUT4 #(
-    .INIT ( 16'h0002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(6)(25)1  (
-    .I0(\top_cam/rtl_cam/matches [6]),
-    .I1(\top_cam/rtl_cam/matches [5]),
-    .I2(\top_cam/rtl_cam/matches [4]),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[14] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [6])
-  );
-  LUT5 #(
-    .INIT ( 32'h00000100 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(7)(24)1  (
-    .I0(\top_cam/rtl_cam/matches [6]),
-    .I1(\top_cam/rtl_cam/matches [5]),
-    .I2(\top_cam/rtl_cam/matches [4]),
-    .I3(\top_cam/rtl_cam/matches [7]),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[14] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [7])
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(10)(20)1  (
-    .I0(\top_cam/rtl_cam/matches [11]),
-    .I1(\top_cam/rtl_cam/matches [9]),
-    .I2(\top_cam/rtl_cam/matches [8]),
-    .I3(\top_cam/rtl_cam/matches [10]),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] )
-  );
-  LUT3 #(
-    .INIT ( 8'h02 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(2)1  (
-    .I0(\top_cam/rtl_cam/matches [2]),
-    .I1(\top_cam/rtl_cam/matches [1]),
-    .I2(\top_cam/rtl_cam/matches [0]),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [2])
-  );
-  LUT4 #(
-    .INIT ( 16'h0002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(3)(28)1  (
-    .I0(\top_cam/rtl_cam/matches [3]),
-    .I1(\top_cam/rtl_cam/matches [2]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [3])
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(14)(28)1  (
-    .I0(\top_cam/rtl_cam/matches [2]),
-    .I1(\top_cam/rtl_cam/matches [1]),
-    .I2(\top_cam/rtl_cam/matches [3]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[14] )
-  );
-  LUT5 #(
-    .INIT ( 32'h00000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(26)(5)1  (
-    .I0(\top_cam/rtl_cam/matches [26]),
-    .I1(\top_cam/rtl_cam/matches [25]),
-    .I2(\top_cam/rtl_cam/matches [24]),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [26])
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(27)(4)1  (
-    .I0(\top_cam/rtl_cam/matches [27]),
-    .I1(\top_cam/rtl_cam/matches [26]),
-    .I2(\top_cam/rtl_cam/matches [25]),
-    .I3(\top_cam/rtl_cam/matches [24]),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [27])
-  );
-  LUT4 #(
-    .INIT ( 16'h0002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(25)(6)1  (
-    .I0(\top_cam/rtl_cam/matches [25]),
-    .I1(\top_cam/rtl_cam/matches [24]),
-    .I2(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [25])
-  );
-  LUT2 #(
-    .INIT ( 4'h2 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(1)1  (
-    .I0(\top_cam/rtl_cam/matches [1]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [1])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(4)(8)1  (
-    .I0(\top_cam/rtl_cam/matches [23]),
-    .I1(\top_cam/rtl_cam/matches [22]),
-    .I2(\top_cam/rtl_cam/matches [21]),
-    .I3(\top_cam/rtl_cam/matches [20]),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] ),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] )
-  );
-  LUT3 #(
-    .INIT ( 8'h02 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(24)(7)1  (
-    .I0(\top_cam/rtl_cam/matches [24]),
-    .I1(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .I2(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [24])
-  );
-  LUT4 #(
     .INIT ( 16'h0002 ))
   \top_cam/rtl_cam/clog/GND_51_o_gwsig.gsrl.wr_count_integer_srl[3]_equal_4_o1  (
     .I0(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [0]),
@@ -12837,13 +12684,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [0]),
     .I4(\top_cam/rtl_cam/wr_data_mask [0]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1529 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1492 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1529 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[0].tern.wr_comp/WR_DATA_BIT(0)1_1492 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [0])
   );
   LUT6 #(
@@ -12866,13 +12713,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [2]),
     .I4(\top_cam/rtl_cam/wr_data_mask [2]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1531 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1494 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1531 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[1].tern.wr_comp/WR_DATA_BIT(0)1_1494 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [1])
   );
   LUT6 #(
@@ -12895,13 +12742,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [4]),
     .I4(\top_cam/rtl_cam/wr_data_mask [4]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1533 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1496 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1533 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[2].tern.wr_comp/WR_DATA_BIT(0)1_1496 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [2])
   );
   LUT6 #(
@@ -12924,13 +12771,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [6]),
     .I4(\top_cam/rtl_cam/wr_data_mask [6]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1535 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1498 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1535 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[3].tern.wr_comp/WR_DATA_BIT(0)1_1498 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [3])
   );
   LUT6 #(
@@ -12953,13 +12800,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [8]),
     .I4(\top_cam/rtl_cam/wr_data_mask [8]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1537 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1500 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1537 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[4].tern.wr_comp/WR_DATA_BIT(0)1_1500 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [4])
   );
   LUT6 #(
@@ -12982,13 +12829,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [10]),
     .I4(\top_cam/rtl_cam/wr_data_mask [10]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1539 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1502 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1539 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[5].tern.wr_comp/WR_DATA_BIT(0)1_1502 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [5])
   );
   LUT6 #(
@@ -13011,13 +12858,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [12]),
     .I4(\top_cam/rtl_cam/wr_data_mask [12]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1541 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1504 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1541 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[6].tern.wr_comp/WR_DATA_BIT(0)1_1504 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [6])
   );
   LUT6 #(
@@ -13040,13 +12887,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [14]),
     .I4(\top_cam/rtl_cam/wr_data_mask [14]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1543 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1506 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1543 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[7].tern.wr_comp/WR_DATA_BIT(0)1_1506 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [7])
   );
   LUT6 #(
@@ -13069,13 +12916,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [16]),
     .I4(\top_cam/rtl_cam/wr_data_mask [16]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1545 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1508 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1545 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[8].tern.wr_comp/WR_DATA_BIT(0)1_1508 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [8])
   );
   LUT6 #(
@@ -13098,13 +12945,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [18]),
     .I4(\top_cam/rtl_cam/wr_data_mask [18]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1547 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1510 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1547 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[9].tern.wr_comp/WR_DATA_BIT(0)1_1510 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [9])
   );
   LUT6 #(
@@ -13127,13 +12974,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [20]),
     .I4(\top_cam/rtl_cam/wr_data_mask [20]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1549 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1512 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1549 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[10].tern.wr_comp/WR_DATA_BIT(0)1_1512 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [10])
   );
   LUT6 #(
@@ -13156,13 +13003,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [22]),
     .I4(\top_cam/rtl_cam/wr_data_mask [22]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1551 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1514 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1551 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[11].tern.wr_comp/WR_DATA_BIT(0)1_1514 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [11])
   );
   LUT6 #(
@@ -13185,13 +13032,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [24]),
     .I4(\top_cam/rtl_cam/wr_data_mask [24]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1553 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1516 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1553 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[12].tern.wr_comp/WR_DATA_BIT(0)1_1516 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [12])
   );
   LUT6 #(
@@ -13214,13 +13061,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [26]),
     .I4(\top_cam/rtl_cam/wr_data_mask [26]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1555 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1518 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1555 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[13].tern.wr_comp/WR_DATA_BIT(0)1_1518 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [13])
   );
   LUT6 #(
@@ -13243,13 +13090,13 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [28]),
     .I4(\top_cam/rtl_cam/wr_data_mask [28]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1557 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1520 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1557 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[14].tern.wr_comp/WR_DATA_BIT(0)1_1520 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [14])
   );
   LUT6 #(
@@ -13272,158 +13119,210 @@ module cam (
     .I3(\top_cam/rtl_cam/wr_din [30]),
     .I4(\top_cam/rtl_cam/wr_data_mask [30]),
     .I5(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1559 )
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1522 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)3  (
     .I0(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0) ),
-    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1559 ),
+    .I1(\top_cam/rtl_cam/mem/gsrl.srlmem/loopc[15].tern.wr_comp/WR_DATA_BIT(0)1_1522 ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/wr_data_bits [15])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(0)(0)_SW0  (
-    .I0(\top_cam/rtl_cam/matches [27]),
-    .I1(\top_cam/rtl_cam/matches [26]),
-    .I2(\top_cam/rtl_cam/matches [30]),
-    .I3(\top_cam/rtl_cam/matches [29]),
-    .I4(\top_cam/rtl_cam/matches [28]),
-    .O(N2)
   );
   LUT6 #(
     .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(0)(0)  (
-    .I0(\top_cam/rtl_cam/matches [31]),
-    .I1(\top_cam/rtl_cam/matches [25]),
-    .I2(\top_cam/rtl_cam/matches [24]),
-    .I3(N2),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] ),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[0] )
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)1  (
+    .I0(\top_cam/rtl_cam/matches [27]),
+    .I1(\top_cam/rtl_cam/matches [28]),
+    .I2(\top_cam/rtl_cam/matches [25]),
+    .I3(\top_cam/rtl_cam/matches [26]),
+    .I4(\top_cam/rtl_cam/matches [23]),
+    .I5(\top_cam/rtl_cam/matches [24]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0) [0])
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)2  (
+    .I0(\top_cam/rtl_cam/matches [4]),
+    .I1(\top_cam/rtl_cam/matches [5]),
+    .I2(\top_cam/rtl_cam/matches [30]),
+    .I3(\top_cam/rtl_cam/matches [31]),
+    .I4(\top_cam/rtl_cam/matches [29]),
+    .I5(\top_cam/rtl_cam/matches [3]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)1_1524 )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)3  (
+    .I0(\top_cam/rtl_cam/matches [16]),
+    .I1(\top_cam/rtl_cam/matches [17]),
+    .I2(\top_cam/rtl_cam/matches [14]),
+    .I3(\top_cam/rtl_cam/matches [15]),
+    .I4(\top_cam/rtl_cam/matches [12]),
+    .I5(\top_cam/rtl_cam/matches [13]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)2_1525 )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)4  (
+    .I0(\top_cam/rtl_cam/matches [21]),
+    .I1(\top_cam/rtl_cam/matches [22]),
+    .I2(\top_cam/rtl_cam/matches [2]),
+    .I3(\top_cam/rtl_cam/matches [20]),
+    .I4(\top_cam/rtl_cam/matches [18]),
+    .I5(\top_cam/rtl_cam/matches [19]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)3_1526 )
+  );
+  LUT2 #(
+    .INIT ( 4'hE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)5  (
+    .I0(\top_cam/rtl_cam/matches [10]),
+    .I1(\top_cam/rtl_cam/matches [11]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)4_1527 )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)6  (
+    .I0(\top_cam/rtl_cam/matches [0]),
+    .I1(\top_cam/rtl_cam/matches [1]),
+    .I2(\top_cam/rtl_cam/matches [8]),
+    .I3(\top_cam/rtl_cam/matches [9]),
+    .I4(\top_cam/rtl_cam/matches [6]),
+    .I5(\top_cam/rtl_cam/matches [7]),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)5_1528 )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
+  \top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)7  (
+    .I0(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)4_1527 ),
+    .I1(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)5_1528 ),
+    .I2(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0) [0]),
+    .I3(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)1_1524 ),
+    .I4(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)2_1525 ),
+    .I5(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red(0)(0)3_1526 ),
+    .O(\top_cam/rtl_cam/mlog/nmat.none_proc.matches_red [0])
   );
   FDR #(
     .INIT ( 1'b1 ))
   \top_cam/rtl_cam/clog/int_reg_en_i  (
     .C(CLK),
-    .D(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1561 ),
-    .R(\top_cam/rtl_cam/clog/WE_busy_i_AND_189_o ),
+    .D(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1529 ),
+    .R(\top_cam/rtl_cam/clog/WE_busy_i_AND_109_o ),
     .Q(\top_cam/rtl_cam/clog/int_reg_en_i_171 )
   );
   LUT2 #(
     .INIT ( 4'hE ))
   \top_cam/rtl_cam/clog/int_reg_en_i_glue_set  (
     .I0(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
-    .I1(\top_cam/rtl_cam/clog/gwsig.end_next_write_1527 ),
-    .O(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1561 )
+    .I1(\top_cam/rtl_cam/clog/gwsig.end_next_write_1490 ),
+    .O(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1529 )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFD ))
+    .INIT ( 64'hFFFFFFFFFFFEFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[0].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 ),
+    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[0].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFF7 ))
+    .INIT ( 64'hFFFFFFFFFEFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[1].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 ),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[1].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFDFF ))
+    .INIT ( 64'hFFFFFFFFFEFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[2].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/clog/WREN111 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[2].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFF7FF ))
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[3].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [2]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[3].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFBFF ))
+    .INIT ( 64'hFFFFFFFFFEFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[4].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I3(\top_cam/rtl_cam/clog/WREN111 ),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 ),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[4].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFEFFFFFFFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[5].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ),
-    .I2(\top_cam/rtl_cam/clog/WREN11_1593 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 ),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[5].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFF7FFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[6].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/clog/WREN11_1593 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1588 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 ),
-    .I4(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ),
-    .I5(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[6].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFF7FFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[7].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[7].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFF7 ))
+    .INIT ( 64'hFFFFFFFFFEFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[8].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I1(\top_cam/rtl_cam/clog/WREN111 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 ),
+    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [2]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[8].sword/we_inverted )
   );
   LUT6 #(
     .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[9].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I3(\top_cam/rtl_cam/clog/WREN111 ),
-    .I4(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
     .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[9].sword/we_inverted )
   );
@@ -13439,33 +13338,77 @@ module cam (
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[10].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFF7FFFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[11].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/clog/WREN11_1593 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1588 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [2]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[11].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFBFF ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[16].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[12].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I3(\top_cam/rtl_cam/wren ),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I4(\top_cam/rtl_cam/wren ),
     .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[12].sword/we_inverted )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[13].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[13].sword/we_inverted )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[14].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[14].sword/we_inverted )
+  );
+  LUT6 #(
+    .INIT ( 64'hBFFFFFFFFFFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[15].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I5(\top_cam/rtl_cam/wren ),
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[15].sword/we_inverted )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFFEFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[16].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [2]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[16].sword/we_inverted )
   );
   LUT6 #(
     .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[17].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I4(\top_cam/rtl_cam/wren ),
     .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
@@ -13483,590 +13426,69 @@ module cam (
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[18].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFF7FFFFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[19].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I3(\top_cam/rtl_cam/wren ),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I5(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 ),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[19].sword/we_inverted )
-  );
-  LUT2 #(
-    .INIT ( 4'hB ))
-  \top_cam/rtl_cam/clog/WREN11  (
-    .I0(WE),
-    .I1(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/wren )
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW0  (
-    .I0(\top_cam/rtl_cam/matches [12]),
-    .I1(\top_cam/rtl_cam/matches [13]),
-    .I2(\top_cam/rtl_cam/matches [27]),
-    .I3(\top_cam/rtl_cam/matches [26]),
-    .I4(\top_cam/rtl_cam/matches [25]),
-    .I5(\top_cam/rtl_cam/matches [24]),
-    .O(N4)
-  );
-  LUT3 #(
-    .INIT ( 8'hFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(14)(28)1_SW0  (
-    .I0(\top_cam/rtl_cam/matches [6]),
-    .I1(\top_cam/rtl_cam/matches [5]),
-    .I2(\top_cam/rtl_cam/matches [4]),
-    .O(N6)
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1  (
-    .I0(\top_cam/rtl_cam/matches [0]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .I2(\top_cam/rtl_cam/matches [2]),
-    .I3(\top_cam/rtl_cam/matches [1]),
-    .I4(\top_cam/rtl_cam/matches [7]),
-    .I5(N6),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] )
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW0  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [12]),
-    .I2(\top_cam/rtl_cam/matches [13]),
-    .I3(\top_cam/rtl_cam/matches [14]),
-    .I4(\top_cam/rtl_cam/matches [2]),
-    .I5(\top_cam/rtl_cam/matches [1]),
-    .O(N8)
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1  (
-    .I0(\top_cam/rtl_cam/matches [7]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .I2(\top_cam/rtl_cam/matches [0]),
-    .I3(N6),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[8] )
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(31)(0)11_SW0  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [14]),
-    .I2(\top_cam/rtl_cam/matches [29]),
-    .I3(\top_cam/rtl_cam/matches [28]),
-    .O(N10)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(30)(1)1  (
-    .I0(\top_cam/rtl_cam/matches [30]),
-    .I1(N10),
-    .I2(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I3(N4),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [30])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFB ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(31)(0)11_SW1  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [31]),
-    .I2(\top_cam/rtl_cam/matches [29]),
-    .I3(\top_cam/rtl_cam/matches [28]),
-    .I4(\top_cam/rtl_cam/matches [14]),
-    .O(N12)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(31)(0)2  (
-    .I0(\top_cam/rtl_cam/matches [30]),
-    .I1(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I2(N12),
-    .I3(N4),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [31])
-  );
-  LUT2 #(
-    .INIT ( 4'hE ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(31)(0)11_SW2  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [14]),
-    .O(N14)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(28)(3)1  (
-    .I0(\top_cam/rtl_cam/matches [28]),
-    .I1(N14),
-    .I2(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I3(N4),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [28])
-  );
-  LUT3 #(
-    .INIT ( 8'hFE ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(31)(0)11_SW3  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [14]),
-    .I2(\top_cam/rtl_cam/matches [28]),
-    .O(N16)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(29)(2)1  (
-    .I0(\top_cam/rtl_cam/matches [29]),
-    .I1(N16),
-    .I2(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I3(N4),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[12] ),
-    .I5(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[4] ),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [29])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFF7F ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[12].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I2(\top_cam/rtl_cam/clog/WREN111 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ),
-    .I4(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 ),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[12].sword/we_inverted )
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFF7FFFFFF ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[13].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/clog/WREN11_1593 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .I4(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 ),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[13].sword/we_inverted )
-  );
-  LUT6 #(
-    .INIT ( 64'hFBFFFFFFFFFFFFFF ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[14].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 ),
-    .I1(\top_cam/rtl_cam/clog/WREN111 ),
-    .I2(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[14].sword/we_inverted )
-  );
-  LUT6 #(
-    .INIT ( 64'hDFFFFFFFFFFFFFFF ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[15].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 ),
-    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 ),
-    .I2(\top_cam/rtl_cam/clog/WREN11_1593 ),
-    .I3(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 ),
-    .I4(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 ),
-    .I5(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 ),
-    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[15].sword/we_inverted )
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFD ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW1  (
-    .I0(\top_cam/rtl_cam/matches [10]),
-    .I1(\top_cam/rtl_cam/matches [7]),
-    .I2(\top_cam/rtl_cam/matches [3]),
-    .I3(\top_cam/rtl_cam/matches [1]),
-    .O(N18)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(10)(21)1  (
-    .I0(\top_cam/rtl_cam/matches [9]),
-    .I1(\top_cam/rtl_cam/matches [8]),
-    .I2(\top_cam/rtl_cam/matches [2]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(N6),
-    .I5(N18),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [10])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFD ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW2  (
-    .I0(\top_cam/rtl_cam/matches [11]),
-    .I1(\top_cam/rtl_cam/matches [10]),
-    .I2(\top_cam/rtl_cam/matches [7]),
-    .I3(\top_cam/rtl_cam/matches [3]),
-    .I4(\top_cam/rtl_cam/matches [1]),
-    .O(N20)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(11)(20)1  (
-    .I0(\top_cam/rtl_cam/matches [9]),
-    .I1(\top_cam/rtl_cam/matches [8]),
-    .I2(\top_cam/rtl_cam/matches [2]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(N6),
-    .I5(N20),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [11])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW3  (
-    .I0(\top_cam/rtl_cam/matches [12]),
-    .I1(\top_cam/rtl_cam/matches [13]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .I3(\top_cam/rtl_cam/matches [7]),
-    .I4(\top_cam/rtl_cam/matches [3]),
-    .O(N22)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(14)(17)1  (
-    .I0(\top_cam/rtl_cam/matches [14]),
-    .I1(\top_cam/rtl_cam/matches [2]),
-    .I2(\top_cam/rtl_cam/matches [0]),
-    .I3(N6),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N22),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [14])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW4  (
-    .I0(\top_cam/rtl_cam/matches [12]),
-    .I1(\top_cam/rtl_cam/matches [13]),
-    .I2(\top_cam/rtl_cam/matches [14]),
-    .I3(\top_cam/rtl_cam/matches [1]),
-    .I4(\top_cam/rtl_cam/matches [7]),
-    .I5(\top_cam/rtl_cam/matches [3]),
-    .O(N24)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(15)(16)1  (
-    .I0(\top_cam/rtl_cam/matches [15]),
-    .I1(\top_cam/rtl_cam/matches [2]),
-    .I2(\top_cam/rtl_cam/matches [0]),
-    .I3(N6),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N24),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [15])
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW5  (
-    .I0(\top_cam/rtl_cam/matches [12]),
-    .I1(\top_cam/rtl_cam/matches [1]),
-    .I2(\top_cam/rtl_cam/matches [7]),
-    .I3(\top_cam/rtl_cam/matches [3]),
-    .O(N26)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(13)(18)1  (
-    .I0(\top_cam/rtl_cam/matches [13]),
-    .I1(\top_cam/rtl_cam/matches [2]),
-    .I2(\top_cam/rtl_cam/matches [0]),
-    .I3(N6),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N26),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [13])
-  );
-  LUT2 #(
-    .INIT ( 4'hE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW6  (
-    .I0(\top_cam/rtl_cam/matches [7]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .O(N28)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(8)1  (
-    .I0(\top_cam/rtl_cam/matches [8]),
-    .I1(\top_cam/rtl_cam/matches [2]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(N28),
-    .I5(N6),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [8])
-  );
-  LUT3 #(
-    .INIT ( 8'hFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW7  (
-    .I0(\top_cam/rtl_cam/matches [7]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .O(N30)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(9)(22)1  (
-    .I0(\top_cam/rtl_cam/matches [9]),
-    .I1(\top_cam/rtl_cam/matches [8]),
-    .I2(\top_cam/rtl_cam/matches [2]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(N6),
-    .I5(N30),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [9])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFB ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(12)(24)1_SW8  (
-    .I0(\top_cam/rtl_cam/matches [11]),
-    .I1(\top_cam/rtl_cam/matches [12]),
-    .I2(\top_cam/rtl_cam/matches [10]),
-    .I3(\top_cam/rtl_cam/matches [1]),
-    .I4(\top_cam/rtl_cam/matches [7]),
-    .I5(\top_cam/rtl_cam/matches [3]),
-    .O(N32)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(12)(19)1  (
-    .I0(\top_cam/rtl_cam/matches [9]),
-    .I1(\top_cam/rtl_cam/matches [8]),
-    .I2(\top_cam/rtl_cam/matches [2]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(N6),
-    .I5(N32),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [12])
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW1  (
-    .I0(\top_cam/rtl_cam/matches [17]),
-    .I1(\top_cam/rtl_cam/matches [16]),
-    .I2(\top_cam/rtl_cam/matches [7]),
-    .I3(\top_cam/rtl_cam/matches [3]),
-    .O(N34)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(18)(13)1  (
-    .I0(\top_cam/rtl_cam/matches [18]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .I2(N6),
-    .I3(N34),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [18])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW2  (
-    .I0(\top_cam/rtl_cam/matches [17]),
-    .I1(\top_cam/rtl_cam/matches [18]),
-    .I2(\top_cam/rtl_cam/matches [16]),
-    .I3(\top_cam/rtl_cam/matches [7]),
-    .I4(\top_cam/rtl_cam/matches [3]),
-    .O(N36)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(19)(12)1  (
-    .I0(\top_cam/rtl_cam/matches [19]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N36),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [19])
-  );
-  LUT5 #(
-    .INIT ( 32'hFFFFFFFD ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW3  (
-    .I0(\top_cam/rtl_cam/matches [22]),
-    .I1(\top_cam/rtl_cam/matches [21]),
-    .I2(\top_cam/rtl_cam/matches [20]),
-    .I3(\top_cam/rtl_cam/matches [7]),
-    .I4(\top_cam/rtl_cam/matches [3]),
-    .O(N38)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(22)(9)1  (
-    .I0(\top_cam/rtl_cam/matches [0]),
-    .I1(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] ),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N38),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [22])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFFFD ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW4  (
-    .I0(\top_cam/rtl_cam/matches [23]),
-    .I1(\top_cam/rtl_cam/matches [22]),
-    .I2(\top_cam/rtl_cam/matches [21]),
-    .I3(\top_cam/rtl_cam/matches [20]),
-    .I4(\top_cam/rtl_cam/matches [7]),
-    .I5(\top_cam/rtl_cam/matches [3]),
-    .O(N40)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(23)(8)1  (
-    .I0(\top_cam/rtl_cam/matches [0]),
-    .I1(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] ),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N8),
-    .I5(N40),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [23])
-  );
-  LUT4 #(
-    .INIT ( 16'hFFFD ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW5  (
-    .I0(\top_cam/rtl_cam/matches [21]),
-    .I1(\top_cam/rtl_cam/matches [20]),
-    .I2(\top_cam/rtl_cam/matches [7]),
-    .I3(\top_cam/rtl_cam/matches [3]),
-    .O(N42)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(21)(10)1  (
-    .I0(\top_cam/rtl_cam/matches [0]),
-    .I1(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[6] ),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N42),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [21])
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(16)1  (
-    .I0(\top_cam/rtl_cam/matches [16]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .I2(N28),
-    .I3(N6),
-    .I4(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [16])
-  );
-  LUT3 #(
-    .INIT ( 8'hFE ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW7  (
-    .I0(\top_cam/rtl_cam/matches [16]),
-    .I1(\top_cam/rtl_cam/matches [7]),
-    .I2(\top_cam/rtl_cam/matches [3]),
-    .O(N46)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(17)(14)1  (
-    .I0(\top_cam/rtl_cam/matches [17]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N46),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [17])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFFFFEFF ))
-  \top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red(8)(16)1_SW8  (
-    .I0(\top_cam/rtl_cam/matches [18]),
-    .I1(\top_cam/rtl_cam/matches [17]),
-    .I2(\top_cam/rtl_cam/matches [7]),
-    .I3(\top_cam/rtl_cam/matches [20]),
-    .I4(\top_cam/rtl_cam/matches [16]),
-    .I5(\top_cam/rtl_cam/matches [3]),
-    .O(N48)
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000000000001 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(20)(11)1  (
-    .I0(\top_cam/rtl_cam/matches [19]),
-    .I1(\top_cam/rtl_cam/matches [0]),
-    .I2(N6),
-    .I3(\top_cam/rtl_cam/mlog/ohadd.oh_proc.matches_red[10] ),
-    .I4(N48),
-    .I5(N8),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [20])
-  );
-  LUT5 #(
-    .INIT ( 32'h00000002 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(4)1  (
-    .I0(\top_cam/rtl_cam/matches [4]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(\top_cam/rtl_cam/matches [2]),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [4])
-  );
-  LUT6 #(
-    .INIT ( 64'h0000000100000000 ))
-  \top_cam/rtl_cam/mlog/match_addr_1h_bf_reg(5)(26)1  (
-    .I0(\top_cam/rtl_cam/matches [4]),
-    .I1(\top_cam/rtl_cam/matches [3]),
-    .I2(\top_cam/rtl_cam/matches [1]),
-    .I3(\top_cam/rtl_cam/matches [0]),
-    .I4(\top_cam/rtl_cam/matches [2]),
-    .I5(\top_cam/rtl_cam/matches [5]),
-    .O(\top_cam/rtl_cam/mlog/match_addr_1h_bf_reg [5])
-  );
-  LUT6 #(
-    .INIT ( 64'hFFFFFFFFFFF7FFFF ))
-  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[20].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
     .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .I4(\top_cam/rtl_cam/wren ),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[19].sword/we_inverted )
+  );
+  LUT6 #(
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
+  \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[20].sword/we_inverted1  (
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[20].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFFF7FFFFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[21].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[21].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFFDFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[22].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[22].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFFFFFF7FFFFFFF ))
+    .INIT ( 64'hBFFFFFFFFFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[23].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I5(\top_cam/rtl_cam/wren ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[23].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFFDFFFFFFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFEFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[24].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[24].sword/we_inverted )
   );
   LUT6 #(
@@ -14095,7 +13517,7 @@ module cam (
     .INIT ( 64'hBFFFFFFFFFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[27].sword/we_inverted1  (
     .I0(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I1(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 ),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [3]),
     .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
@@ -14103,48 +13525,55 @@ module cam (
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[27].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFFDFFFFFFFFFFFFF ))
+    .INIT ( 64'hFFFFFFFFBFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[28].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
-    .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [2]),
+    .I2(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I4(\top_cam/rtl_cam/wren ),
+    .I5(\top_cam/rtl_cam/wr_addr_ilog [1]),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[28].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hFF7FFFFFFFFFFFFF ))
+    .INIT ( 64'hBFFFFFFFFFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[29].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
     .I4(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I5(\top_cam/rtl_cam/wren ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[29].sword/we_inverted )
   );
   LUT6 #(
-    .INIT ( 64'hDFFFFFFFFFFFFFFF ))
+    .INIT ( 64'hBFFFFFFFFFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[30].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [3]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [4]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I5(\top_cam/rtl_cam/wren ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[30].sword/we_inverted )
   );
   LUT6 #(
     .INIT ( 64'h7FFFFFFFFFFFFFFF ))
   \top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[31].sword/we_inverted1  (
-    .I0(\top_cam/rtl_cam/wren ),
-    .I1(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I0(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I1(\top_cam/rtl_cam/wr_addr_ilog [4]),
     .I2(\top_cam/rtl_cam/wr_addr_ilog [2]),
-    .I3(\top_cam/rtl_cam/wr_addr_ilog [1]),
-    .I4(\top_cam/rtl_cam/wr_addr_ilog [4]),
-    .I5(\top_cam/rtl_cam/wr_addr_ilog [3]),
+    .I3(\top_cam/rtl_cam/wr_addr_ilog [0]),
+    .I4(\top_cam/rtl_cam/wr_addr_ilog [1]),
+    .I5(\top_cam/rtl_cam/wren ),
     .O(\top_cam/rtl_cam/mem/gsrl.srlmem/gblks[0].glast.blkb/loopw[31].sword/we_inverted )
+  );
+  LUT2 #(
+    .INIT ( 4'hB ))
+  \top_cam/rtl_cam/clog/WREN11  (
+    .I0(WE),
+    .I1(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
+    .O(\top_cam/rtl_cam/wren )
   );
   LUT6 #(
     .INIT ( 64'h2222222222222227 ))
@@ -14159,10 +13588,10 @@ module cam (
   );
   LUT2 #(
     .INIT ( 4'h8 ))
-  \top_cam/rtl_cam/clog/WE_busy_i_AND_189_o11  (
+  \top_cam/rtl_cam/clog/WE_busy_i_AND_109_o11  (
     .I0(WE),
     .I1(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
-    .O(\top_cam/rtl_cam/clog/WE_busy_i_AND_189_o )
+    .O(\top_cam/rtl_cam/clog/WE_busy_i_AND_109_o )
   );
   LUT3 #(
     .INIT ( 8'hEB ))
@@ -14198,107 +13627,21 @@ module cam (
     .I1(\top_cam/rtl_cam/clog/gwsig.gsrl.wr_count_integer_srl [0]),
     .O(\top_cam/rtl_cam/clog/Mcount_gwsig.gsrl.wr_count_integer_srl )
   );
-  FDR #(
-    .INIT ( 1'b1 ))
-  \top_cam/rtl_cam/clog/int_reg_en_i_1  (
-    .C(CLK),
-    .D(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1561 ),
-    .R(\top_cam/rtl_cam/clog/WE_busy_i_AND_189_o ),
-    .Q(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 )
-  );
-  FDR #(
-    .INIT ( 1'b1 ))
-  \top_cam/rtl_cam/clog/int_reg_en_i_2  (
-    .C(CLK),
-    .D(\top_cam/rtl_cam/clog/int_reg_en_i_glue_set_1561 ),
-    .R(\top_cam/rtl_cam/clog/WE_busy_i_AND_189_o ),
-    .Q(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 )
-  );
   LUT3 #(
     .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1  (
-    .I0(WR_ADDR[3]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [3]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_1586 )
+  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1  (
+    .I0(WR_ADDR[1]),
+    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [1]),
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
+    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1530 )
   );
   LUT3 #(
     .INIT ( 8'hAC ))
   \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1  (
     .I0(WR_ADDR[4]),
     .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [4]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1587 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1  (
-    .I0(WR_ADDR[1]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [1]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_1588 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT41_2  (
-    .I0(WR_ADDR[3]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [3]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT411 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_2  (
-    .I0(WR_ADDR[4]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [4]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT511 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1  (
-    .I0(WR_ADDR[2]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [2]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_1_1584 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT31_1591 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1  (
-    .I0(WR_ADDR[0]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [0]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_1592 )
-  );
-  LUT2 #(
-    .INIT ( 4'hB ))
-  \top_cam/rtl_cam/clog/WREN11_1  (
-    .I0(WE),
-    .I1(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/clog/WREN11_1593 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT21_2  (
-    .I0(WR_ADDR[1]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [1]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT211 )
-  );
-  LUT2 #(
-    .INIT ( 4'hB ))
-  \top_cam/rtl_cam/clog/WREN11_2  (
-    .I0(WE),
-    .I1(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/clog/WREN111 )
-  );
-  LUT3 #(
-    .INIT ( 8'hAC ))
-  \top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT11_2  (
-    .I0(WR_ADDR[0]),
-    .I1(\top_cam/rtl_cam/ilog/gwl.wr_addr_q [0]),
-    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_2_1585 ),
-    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT111 )
+    .I2(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
+    .O(\top_cam/rtl_cam/ilog/Mmux_WR_ADDR_INT51_1531 )
   );
   INV   \top_cam/rtl_cam/reg_en_inv1_INV_0  (
     .I(\top_cam/rtl_cam/clog/int_reg_en_i_171 ),
