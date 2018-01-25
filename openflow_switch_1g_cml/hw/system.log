@@ -12,14 +12,14 @@ Xilinx EDK 14.7 Build EDK_P.20131013
 WARNING:EDK - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core for
    architecture 'kintex7' -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
-   hs line 348 
+   hs line 326 
 Copied /opt/Xilinx/14.7/ISE_DS/EDK/data/xflow/bitgen.ut to etc directory
 Copied file /opt/Xilinx/14.7/ISE_DS/EDK/data/xflow/fast_runtime_kintex7.opt to
 etc directory
 WARNING:EDK - IPNAME: microblaze, INSTANCE: microblaze_0 - Superseded core for
    architecture 'kintex7' -
    /root/NetFPGA-1G-CML-live/contrib-projects/openflow_switch_1g_cml/hw/system.m
-   hs line 348 
+   hs line 326 
 
 Overriding IP level properties ...
 INFO:EDK - IPNAME: axi_intc, INSTANCE:microblaze_0_intc - tcl is overriding
