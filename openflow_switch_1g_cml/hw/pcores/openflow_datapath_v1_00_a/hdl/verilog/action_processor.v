@@ -2016,49 +2016,49 @@ module action_processor
                nw_out_wr_3_nxt = nw_out_wr_2;
 
                nw_out_data_4_nxt = nw_out_data_3;
-               if (tp_cs_done && (tp_proto == 0)) begin
-                  if (tp_proc_flag == FLAG_START_MSB) begin
-                     //tjpark
-                     //nw_out_data_4_nxt[47:32] = ~tp_diff;
-                     //nw_out_data_4_nxt[47:32] = 16'hAAAA;
-                  end
-                  else begin
-                     //nw_out_data_4_nxt[15:0] = ~tp_diff;
-                     nw_out_data_4_nxt[15:0] = 16'hBBBB;
-                  end
-               end
                nw_out_strb_4_nxt = nw_out_strb_3;
                nw_out_last_4_nxt = nw_out_last_3;
                nw_out_wr_4_nxt = nw_out_wr_3;
 
                nw_out_data_5_nxt = nw_out_data_4;
-               if (nw_cs_done && (nw_proc_flag == FLAG_START_LSB)) begin
-                  //nw_out_data_5_nxt[63:48] = ~nw_diff1;
-                  nw_out_data_5_nxt[63:48] = 16'hCCCC;
-               end
-               else if (tp_cs_done && (tp_proto == 1)) begin
-                  if (tp_proc_flag == FLAG_START_MSB) begin
-                     //nw_out_data_5_nxt[63:48] = ~tp_diff;
-                     nw_out_data_5_nxt[63:48] = 16'hDDDD;
-                  end
-                  else begin
-                     //nw_out_data_5_nxt[31:16] = ~tp_diff;
-                     nw_out_data_5_nxt[31:16] = 16'hEEEE;
-                  end
-               end
                nw_out_strb_5_nxt = nw_out_strb_4;
                nw_out_last_5_nxt = nw_out_last_4;
                nw_out_wr_5_nxt = nw_out_wr_4;
 
                tp_out_data_nxt = nw_out_data_5;
-               if (nw_cs_done && (nw_proc_flag == FLAG_START_MSB)) begin
-                  //tp_out_data_nxt[31:16] = ~nw_diff1;
-                  tp_out_data_nxt[31:16] = 16'hFFFF;
-               end
                tp_out_strb_nxt = nw_out_strb_5;
                tp_out_last_nxt = nw_out_last_5;
                tp_out_wr_nxt = nw_out_wr_5;
 
+               // tjpark
+               // TCP Checksum
+               if (tp_cs_done && (tp_proto == 0)) begin
+                  if (tp_proc_flag == FLAG_START_MSB) begin // Non-Vlan
+                     //nw_out_data_3_nxt[47:32] = ~tp_diff;
+                  end
+                  else begin
+                     //nw_out_data_3_nxt[15:0] = ~tp_diff;
+                  end
+               end
+                
+               // UDP Checksum
+               else if (tp_cs_done && (tp_proto == 1)) begin
+                  if (tp_proc_flag == FLAG_START_MSB) begin
+                     nw_out_data_5_nxt[63:48] = ~tp_diff;
+                  end
+                  else begin
+                     nw_out_data_5_nxt[31:16] = ~tp_diff;
+                  end
+               end
+              
+               // IP Checksum
+               if (nw_cs_done && (nw_proc_flag == FLAG_START_LSB)) begin
+                  tp_out_data_nxt[63:48] = ~nw_diff1;
+               end
+               else if (nw_cs_done && (nw_proc_flag == FLAG_START_MSB)) begin
+                  tp_out_data_nxt[31:16] = ~nw_diff1;
+               end
+               
                if (nw_out_last) begin
                   shift_cnt_nxt = 5;
                   shift_state_nxt = PKT_PUSH;
@@ -2082,48 +2082,49 @@ module action_processor
             nw_out_wr_3_nxt = nw_out_wr_2;
 
             nw_out_data_4_nxt = nw_out_data_3;
-            if (tp_cs_done && (tp_proto == 0)) begin
-               if (tp_proc_flag == FLAG_START_MSB) begin
-                  //nw_out_data_4_nxt[47:32] = ~tp_diff;
-                  nw_out_data_4_nxt[47:32] = 16'h1111;
-               end
-               else begin
-                  //nw_out_data_4_nxt[15:0] = ~tp_diff;
-                  nw_out_data_4_nxt[15:0] = 16'h2222;
-               end
-            end
             nw_out_strb_4_nxt = nw_out_strb_3;
             nw_out_last_4_nxt = nw_out_last_3;
             nw_out_wr_4_nxt = nw_out_wr_3;
 
             nw_out_data_5_nxt = nw_out_data_4;
-            if (nw_cs_done && (nw_proc_flag == FLAG_START_LSB)) begin
-               //nw_out_data_5_nxt[63:48] = ~nw_diff1;
-               nw_out_data_5_nxt[63:48] = 16'h3333;
-            end
-            else if (tp_cs_done && (tp_proto == 1)) begin
-               if (tp_proc_flag == FLAG_START_MSB) begin
-                  //nw_out_data_5_nxt[63:48] = ~tp_diff;
-                  nw_out_data_5_nxt[63:48] = 16'h4444;
-               end
-               else begin
-                  //nw_out_data_5_nxt[31:16] = ~tp_diff;
-                  nw_out_data_5_nxt[31:16] = 16'h5555;
-               end
-            end
             nw_out_strb_5_nxt = nw_out_strb_4;
             nw_out_last_5_nxt = nw_out_last_4;
             nw_out_wr_5_nxt = nw_out_wr_4;
 
             tp_out_data_nxt = nw_out_data_5;
-            if (nw_cs_done && (nw_proc_flag == FLAG_START_MSB)) begin
-               //tp_out_data_nxt[31:16] = ~nw_diff1;
-               tp_out_data_nxt[31:16] = 16'h6666;
-            end
             tp_out_strb_nxt = nw_out_strb_5;
             tp_out_last_nxt = nw_out_last_5;
             tp_out_wr_nxt = nw_out_wr_5;
+          
+            // tjpark
+            // TCP Checksum
+            if (tp_cs_done && (tp_proto == 0)) begin
+               if (tp_proc_flag == FLAG_START_MSB) begin
+                  //nw_out_data_3_nxt[47:32] = ~tp_diff;
+               end
+               else begin
+                  //nw_out_data_3_nxt[15:0] = ~tp_diff;
+               end
+            end
+          
+            // UDP Checksum
+            else if (tp_cs_done && (tp_proto == 1)) begin
+               if (tp_proc_flag == FLAG_START_MSB) begin
+                  nw_out_data_5_nxt[63:48] = ~tp_diff;
+               end
+               else begin
+                  nw_out_data_5_nxt[31:16] = ~tp_diff;
+               end
+            end
 
+            // IP Checksum
+            if (nw_cs_done && (nw_proc_flag == FLAG_START_LSB)) begin
+               tp_out_data_nxt[63:48] = ~nw_diff1;
+            end
+            else if (nw_cs_done && (nw_proc_flag == FLAG_START_MSB)) begin
+               tp_out_data_nxt[31:16] = ~nw_diff1;
+            end
+            
             shift_cnt_nxt = shift_cnt -1;
             if (nw_out_wr || (shift_cnt == 0)) begin
                shift_state_nxt = PKT_EXIST;
