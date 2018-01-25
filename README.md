@@ -10,5 +10,5 @@ c.f. You should turn off 'TCP checksum offload'
 https://docs.google.com/document/d/1ZwHXQZocKwQls6Ted8VZO8h9MjBtu9WxV2fAY44eOgE/edit
 
 -Structure
-![structure](./img/cml_openflow.pdf)
+![structure](./img/cml_openflow.png)
 
